@@ -5,8 +5,9 @@ using UnityEngine.Networking;
 public class BasicControl : MonoBehaviour {
 
 	[Header("Control")]
-	public Controller Controller;
-	public float ThrottleIncrease;
+	public ControllerSime Controller;
+    //public Controller Controller;
+    public float ThrottleIncrease;
 	
 	[Header("Motors")]
 	public Motor[] Motors;

@@ -106,15 +106,7 @@ public class Controller : MonoBehaviour
         }
         else
         {
-            if (Input.GetMouseButton(0))
-            {
-                // Whatever you want it to do.
-                debugText.text = "Mouse down detected";
-            }
-            else
-            {
-                debugText.text = "No touches";
-            }
+            debugText.text = "No touches";
         }
 
         //Throttle = Input.GetAxisRaw(ThrottleCommand) * (InvertThrottle ? -1 : 1);

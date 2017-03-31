@@ -81,6 +81,7 @@
     <Compile Include="Assets\DroneControl\Scripts\Camera\CameraLookAt.cs" />
     <Compile Include="Assets\DroneControl\Scripts\ComputerModule.cs" />
     <Compile Include="Assets\DroneControl\Scripts\Controller\Controller.cs" />
+    <Compile Include="Assets\DroneControl\Scripts\Controller\ControllerSime.cs" />
     <Compile Include="Assets\DroneControl\Scripts\Motors\Motor.cs" />
     <Compile Include="Assets\DroneControl\Scripts\PID.cs" />
   </ItemGroup>
